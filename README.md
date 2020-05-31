@@ -18,7 +18,7 @@ Open CMD/Terminal and navigate to the location of the file
 
 #### Command Line/ Terminal
 ```
-python test.py -f **<<FILENAME>>**
+python test.py -f <<FILENAME>>
 ```
 #### Example
 ```
@@ -31,7 +31,7 @@ python test.py -f test.csv
 
 #### train.py
 ```
-C:\Users\anish\Desktop\anish_oswal_proj2> python train.py
+C:\Users\anish\Desktop\MealNoMeal> python train.py
 ----K-FOLD CROSS VALIDATION----
 ----SUPPORT VECTOR MACHINE----
 Accuracy :  64.19753086419753
@@ -101,3 +101,17 @@ weighted avg       0.64      0.64      0.63        80
 ```
 
 #### test.py
+```
+
+PS C:\Users\anish\Desktop\MealNoMeal> python test.py -f test.csv
+-------------------------------PREDICTED OUTPUT-------------------------------
+[1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 0 0 1 1 1 1 0 1 1 0 1 0 1 1 1
+ 0 1 1 1 0 1 1 0 1 1]
+
+-------------------------------------------------------------------------------------------
+|| DISCLAIMER: Accuracy is shown assuming that all of the data belongs to the MEAL Class ||
+
+-------------------------------------------------------------------------------------------------------------------
+|||| Accuracy: 74.46808510638297 || Precision: 74.46808510638297 || Recall:100.0 || F1-Score:85.36585365853657 ||||
+-------------------------------------------------------------------------------------------------------------------
+```
