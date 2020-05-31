@@ -26,7 +26,6 @@ python test.py -f E:\PythonProjects\DM2\test.csv
 python test.py -f test.csv
 ```
 
-
 ## Output
 
 #### train.py
