@@ -11,7 +11,7 @@
 ## Input
 - Meal Data (mealData**X**.csv) and No Meal Data (Nomeal**X**.csv) of 5 subjects.
 - Ground truth labels of Meal and No Meal data for 5 subjects which I assumed to be **1 for Meal** and **0 for No Meal** respectively.
-
+- The input data can be found in **"[data](data)"**
 
 ## Code Execution
 Open CMD/Terminal and navigate to the location of the file
