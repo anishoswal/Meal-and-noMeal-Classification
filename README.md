@@ -17,11 +17,11 @@
 ## Code Execution
 Open CMD and navigate to the location of the file
 
-### Command Line
+#### Command Line
 ```
 python test.py -f <<FILENAME>>
 ```
-### Example
+#### Example
 ```
 python test.py -f E:\PythonProjects\DM2\test.csv
 python test.py -f test.csv
