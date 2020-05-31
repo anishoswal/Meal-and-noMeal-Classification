@@ -12,6 +12,7 @@ class DataMining():
     def __init__(self, glucose):
         self.dataF = glucose
 
+#preprocessing
     def preprocess(self):
         nan_row = self.dataF.isna().sum(axis=1)
         rowNaN_list = list()
@@ -25,18 +26,20 @@ class DataMining():
         self.dataF.bfill(inplace=True)
         self.dataF.ffill(inplace=True)
 
+#fast fourier transform
     def FFT(self):
         fftG = fft.rfft(self.dataF, n=5, axis=1)
         fftGr = pd.DataFrame(data=fftG)
         return fftGr
 
 
-
+#moving average
     def cgmVelocity(self):
         cgmV = pd.DataFrame(index=range(len(self.dataF)))
         cgmV = pd.concat([cgmV, self.dataF.mean(axis=1)], axis=1, ignore_index=True)
         return cgmV
 
+#moving standard error of mean
     def movStdError(self):
         count = 0
         stdErr = pd.DataFrame(index=range(len(self.dataF)))
@@ -45,6 +48,7 @@ class DataMining():
             count += 1
         return stdErr
 
+#moving kurtosis
     def movKurtosis(self):
         count = 0
         kurto = pd.DataFrame(index=range(len(self.dataF)))
