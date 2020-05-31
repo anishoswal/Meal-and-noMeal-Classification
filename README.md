@@ -115,3 +115,7 @@ PS C:\Users\anish\Desktop\MealNoMeal> python test.py -f test.csv
 |||| Accuracy: 74.46808510638297 || Precision: 74.46808510638297 || Recall:100.0 || F1-Score:85.36585365853657 ||||
 -------------------------------------------------------------------------------------------------------------------
 ```
+
+## Tested Running Environment
+- **OS:** Windows 10
+- **Python:** 3.7
