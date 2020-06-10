@@ -13,13 +13,17 @@
 - Ground truth labels of Meal and No Meal data for 5 subjects which I assumed to be **1 for Meal** and **0 for No Meal** respectively.
 - The input data can be found in **"[data](data)"**
 
+
 ## Code Execution
 Open CMD/Terminal and navigate to the location of the file
+
 
 #### Command Line/ Terminal
 ```
 python test.py -f <<FILENAME>>
 ```
+
+
 #### Example
 ```
 python test.py -f E:\PythonProjects\DM2\test.csv
@@ -28,6 +32,7 @@ python test.py -f test.csv
 
 
 ## Output
+
 
 #### train.py
 ```
